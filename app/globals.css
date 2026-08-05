@@ -12,7 +12,8 @@
   --card-bg: #0b1829;
 }
 
-html { scroll-behavior: smooth; overflow-x: hidden; }
+html { scroll-behavior: smooth; }
+/* NOTE: overflow-x:hidden is only on body — never on html, it breaks sticky */
 *, *::before, *::after { box-sizing: border-box; }
 
 body {
